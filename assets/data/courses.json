@@ -1,0 +1,2371 @@
+{
+  "meta": {
+    "generated_at": "2025-08-24T03:08:25.682825Z",
+    "version": "1.0"
+  },
+  "categories": [
+    "Programming",
+    "Data Science",
+    "Design",
+    "Marketing",
+    "Business",
+    "DevOps",
+    "Cybersecurity",
+    "AI & ML",
+    "Product Management"
+  ],
+  "courses": [
+    {
+      "id": "C001",
+      "slug": "data-science-essentials-1",
+      "title": "Data Science Essentials 1",
+      "category": "Data Science",
+      "level": "Beginner",
+      "duration_hours": 6,
+      "rating": 3.9,
+      "price": 19,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Data Science course for beginner learners. Build real skills in ~6 hours.",
+      "lessons": [
+        {
+          "id": "L001-1",
+          "title": "Lesson 1: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L001-2",
+          "title": "Lesson 2: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L001-3",
+          "title": "Lesson 3: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Data Science concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Data Science concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Data Science concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Data Science concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Data Science concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "slug": "product-management-essentials-2",
+      "title": "Product Management Essentials 2",
+      "category": "Product Management",
+      "level": "Advanced",
+      "duration_hours": 2,
+      "rating": 4.1,
+      "price": 49,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Product Management course for advanced learners. Build real skills in ~2 hours.",
+      "lessons": [
+        {
+          "id": "L002-1",
+          "title": "Lesson 1: Product Management Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L002-2",
+          "title": "Lesson 2: Product Management Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L002-3",
+          "title": "Lesson 3: Product Management Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Product Management concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Product Management concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Product Management concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Product Management concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Product Management concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "slug": "practical-design-project-3",
+      "title": "Practical Design Project 3",
+      "category": "Design",
+      "level": "Beginner",
+      "duration_hours": 8,
+      "rating": 4.4,
+      "price": 0,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Design course for beginner learners. Build real skills in ~8 hours.",
+      "lessons": [
+        {
+          "id": "L003-1",
+          "title": "Lesson 1: Design Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L003-2",
+          "title": "Lesson 2: Design Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L003-3",
+          "title": "Lesson 3: Design Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Design concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Design concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Design concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Design concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Design concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "slug": "cybersecurity-essentials-4",
+      "title": "Cybersecurity Essentials 4",
+      "category": "Cybersecurity",
+      "level": "Beginner",
+      "duration_hours": 6,
+      "rating": 4.8,
+      "price": 79,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Cybersecurity course for beginner learners. Build real skills in ~6 hours.",
+      "lessons": [
+        {
+          "id": "L004-1",
+          "title": "Lesson 1: Cybersecurity Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L004-2",
+          "title": "Lesson 2: Cybersecurity Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L004-3",
+          "title": "Lesson 3: Cybersecurity Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cybersecurity concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Cybersecurity concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Cybersecurity concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Cybersecurity concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Cybersecurity concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "slug": "cybersecurity-essentials-5",
+      "title": "Cybersecurity Essentials 5",
+      "category": "Cybersecurity",
+      "level": "Intermediate",
+      "duration_hours": 12,
+      "rating": 4.3,
+      "price": 59,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Cybersecurity course for intermediate learners. Build real skills in ~12 hours.",
+      "lessons": [
+        {
+          "id": "L005-1",
+          "title": "Lesson 1: Cybersecurity Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L005-2",
+          "title": "Lesson 2: Cybersecurity Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L005-3",
+          "title": "Lesson 3: Cybersecurity Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cybersecurity concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Cybersecurity concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Cybersecurity concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Cybersecurity concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Cybersecurity concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "slug": "practical-marketing-project-6",
+      "title": "Practical Marketing Project 6",
+      "category": "Marketing",
+      "level": "Beginner",
+      "duration_hours": 12,
+      "rating": 4.0,
+      "price": 39,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Marketing course for beginner learners. Build real skills in ~12 hours.",
+      "lessons": [
+        {
+          "id": "L006-1",
+          "title": "Lesson 1: Marketing Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L006-2",
+          "title": "Lesson 2: Marketing Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L006-3",
+          "title": "Lesson 3: Marketing Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Marketing concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Marketing concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Marketing concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Marketing concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Marketing concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "C007",
+      "slug": "marketing-essentials-7",
+      "title": "Marketing Essentials 7",
+      "category": "Marketing",
+      "level": "Advanced",
+      "duration_hours": 8,
+      "rating": 4.6,
+      "price": 19,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Marketing course for advanced learners. Build real skills in ~8 hours.",
+      "lessons": [
+        {
+          "id": "L007-1",
+          "title": "Lesson 1: Marketing Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L007-2",
+          "title": "Lesson 2: Marketing Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L007-3",
+          "title": "Lesson 3: Marketing Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Marketing concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Marketing concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Marketing concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Marketing concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Marketing concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "slug": "cybersecurity-essentials-8",
+      "title": "Cybersecurity Essentials 8",
+      "category": "Cybersecurity",
+      "level": "Advanced",
+      "duration_hours": 10,
+      "rating": 4.7,
+      "price": 29,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Cybersecurity course for advanced learners. Build real skills in ~10 hours.",
+      "lessons": [
+        {
+          "id": "L008-1",
+          "title": "Lesson 1: Cybersecurity Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L008-2",
+          "title": "Lesson 2: Cybersecurity Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L008-3",
+          "title": "Lesson 3: Cybersecurity Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cybersecurity concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Cybersecurity concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Cybersecurity concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Cybersecurity concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Cybersecurity concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C009",
+      "slug": "practical-cybersecurity-project-9",
+      "title": "Practical Cybersecurity Project 9",
+      "category": "Cybersecurity",
+      "level": "Advanced",
+      "duration_hours": 3,
+      "rating": 4.0,
+      "price": 39,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Cybersecurity course for advanced learners. Build real skills in ~3 hours.",
+      "lessons": [
+        {
+          "id": "L009-1",
+          "title": "Lesson 1: Cybersecurity Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L009-2",
+          "title": "Lesson 2: Cybersecurity Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L009-3",
+          "title": "Lesson 3: Cybersecurity Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cybersecurity concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Cybersecurity concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Cybersecurity concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Cybersecurity concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Cybersecurity concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "C010",
+      "slug": "design-essentials-10",
+      "title": "Design Essentials 10",
+      "category": "Design",
+      "level": "Intermediate",
+      "duration_hours": 2,
+      "rating": 4.4,
+      "price": 59,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Design course for intermediate learners. Build real skills in ~2 hours.",
+      "lessons": [
+        {
+          "id": "L010-1",
+          "title": "Lesson 1: Design Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L010-2",
+          "title": "Lesson 2: Design Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L010-3",
+          "title": "Lesson 3: Design Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Design concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Design concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Design concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Design concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Design concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "slug": "product-management-essentials-11",
+      "title": "Product Management Essentials 11",
+      "category": "Product Management",
+      "level": "Beginner",
+      "duration_hours": 8,
+      "rating": 3.7,
+      "price": 39,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Product Management course for beginner learners. Build real skills in ~8 hours.",
+      "lessons": [
+        {
+          "id": "L011-1",
+          "title": "Lesson 1: Product Management Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L011-2",
+          "title": "Lesson 2: Product Management Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L011-3",
+          "title": "Lesson 3: Product Management Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Product Management concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Product Management concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Product Management concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Product Management concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Product Management concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "C012",
+      "slug": "practical-ai--ml-project-12",
+      "title": "Practical AI & ML Project 12",
+      "category": "AI & ML",
+      "level": "Beginner",
+      "duration_hours": 4,
+      "rating": 5.0,
+      "price": 19,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on AI & ML course for beginner learners. Build real skills in ~4 hours.",
+      "lessons": [
+        {
+          "id": "L012-1",
+          "title": "Lesson 1: AI & ML Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L012-2",
+          "title": "Lesson 2: AI & ML Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L012-3",
+          "title": "Lesson 3: AI & ML Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "AI & ML concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "AI & ML concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "AI & ML concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "AI & ML concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "AI & ML concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "C013",
+      "slug": "devops-essentials-13",
+      "title": "DevOps Essentials 13",
+      "category": "DevOps",
+      "level": "Intermediate",
+      "duration_hours": 12,
+      "rating": 3.7,
+      "price": 0,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on DevOps course for intermediate learners. Build real skills in ~12 hours.",
+      "lessons": [
+        {
+          "id": "L013-1",
+          "title": "Lesson 1: DevOps Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L013-2",
+          "title": "Lesson 2: DevOps Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L013-3",
+          "title": "Lesson 3: DevOps Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "DevOps concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "DevOps concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "DevOps concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "DevOps concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "DevOps concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "C014",
+      "slug": "programming-essentials-14",
+      "title": "Programming Essentials 14",
+      "category": "Programming",
+      "level": "Beginner",
+      "duration_hours": 3,
+      "rating": 3.9,
+      "price": 0,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Programming course for beginner learners. Build real skills in ~3 hours.",
+      "lessons": [
+        {
+          "id": "L014-1",
+          "title": "Lesson 1: Programming Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L014-2",
+          "title": "Lesson 2: Programming Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L014-3",
+          "title": "Lesson 3: Programming Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Programming concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Programming concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Programming concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Programming concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Programming concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        }
+      ]
+    },
+    {
+      "id": "C015",
+      "slug": "practical-ai--ml-project-15",
+      "title": "Practical AI & ML Project 15",
+      "category": "AI & ML",
+      "level": "Intermediate",
+      "duration_hours": 5,
+      "rating": 3.7,
+      "price": 0,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on AI & ML course for intermediate learners. Build real skills in ~5 hours.",
+      "lessons": [
+        {
+          "id": "L015-1",
+          "title": "Lesson 1: AI & ML Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L015-2",
+          "title": "Lesson 2: AI & ML Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L015-3",
+          "title": "Lesson 3: AI & ML Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "AI & ML concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "AI & ML concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "AI & ML concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "AI & ML concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "AI & ML concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "C016",
+      "slug": "devops-essentials-16",
+      "title": "DevOps Essentials 16",
+      "category": "DevOps",
+      "level": "Beginner",
+      "duration_hours": 5,
+      "rating": 4.8,
+      "price": 19,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on DevOps course for beginner learners. Build real skills in ~5 hours.",
+      "lessons": [
+        {
+          "id": "L016-1",
+          "title": "Lesson 1: DevOps Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L016-2",
+          "title": "Lesson 2: DevOps Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L016-3",
+          "title": "Lesson 3: DevOps Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "DevOps concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "DevOps concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "DevOps concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "DevOps concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "DevOps concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C017",
+      "slug": "data-science-essentials-17",
+      "title": "Data Science Essentials 17",
+      "category": "Data Science",
+      "level": "Intermediate",
+      "duration_hours": 3,
+      "rating": 4.8,
+      "price": 0,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Data Science course for intermediate learners. Build real skills in ~3 hours.",
+      "lessons": [
+        {
+          "id": "L017-1",
+          "title": "Lesson 1: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L017-2",
+          "title": "Lesson 2: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L017-3",
+          "title": "Lesson 3: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Data Science concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Data Science concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Data Science concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Data Science concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Data Science concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C018",
+      "slug": "practical-programming-project-18",
+      "title": "Practical Programming Project 18",
+      "category": "Programming",
+      "level": "Beginner",
+      "duration_hours": 10,
+      "rating": 4.0,
+      "price": 0,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Programming course for beginner learners. Build real skills in ~10 hours.",
+      "lessons": [
+        {
+          "id": "L018-1",
+          "title": "Lesson 1: Programming Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L018-2",
+          "title": "Lesson 2: Programming Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L018-3",
+          "title": "Lesson 3: Programming Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Programming concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Programming concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Programming concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Programming concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Programming concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C019",
+      "slug": "programming-essentials-19",
+      "title": "Programming Essentials 19",
+      "category": "Programming",
+      "level": "Advanced",
+      "duration_hours": 2,
+      "rating": 3.7,
+      "price": 59,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Programming course for advanced learners. Build real skills in ~2 hours.",
+      "lessons": [
+        {
+          "id": "L019-1",
+          "title": "Lesson 1: Programming Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L019-2",
+          "title": "Lesson 2: Programming Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L019-3",
+          "title": "Lesson 3: Programming Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Programming concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Programming concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Programming concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Programming concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Programming concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C020",
+      "slug": "data-science-essentials-20",
+      "title": "Data Science Essentials 20",
+      "category": "Data Science",
+      "level": "Advanced",
+      "duration_hours": 5,
+      "rating": 4.5,
+      "price": 39,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Data Science course for advanced learners. Build real skills in ~5 hours.",
+      "lessons": [
+        {
+          "id": "L020-1",
+          "title": "Lesson 1: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L020-2",
+          "title": "Lesson 2: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L020-3",
+          "title": "Lesson 3: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Data Science concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Data Science concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Data Science concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Data Science concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Data Science concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C021",
+      "slug": "practical-devops-project-21",
+      "title": "Practical DevOps Project 21",
+      "category": "DevOps",
+      "level": "Beginner",
+      "duration_hours": 6,
+      "rating": 3.7,
+      "price": 39,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on DevOps course for beginner learners. Build real skills in ~6 hours.",
+      "lessons": [
+        {
+          "id": "L021-1",
+          "title": "Lesson 1: DevOps Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L021-2",
+          "title": "Lesson 2: DevOps Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L021-3",
+          "title": "Lesson 3: DevOps Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "DevOps concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "DevOps concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "DevOps concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "DevOps concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "DevOps concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "C022",
+      "slug": "marketing-essentials-22",
+      "title": "Marketing Essentials 22",
+      "category": "Marketing",
+      "level": "Advanced",
+      "duration_hours": 6,
+      "rating": 4.5,
+      "price": 19,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Marketing course for advanced learners. Build real skills in ~6 hours.",
+      "lessons": [
+        {
+          "id": "L022-1",
+          "title": "Lesson 1: Marketing Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L022-2",
+          "title": "Lesson 2: Marketing Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L022-3",
+          "title": "Lesson 3: Marketing Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Marketing concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Marketing concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Marketing concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Marketing concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Marketing concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "C023",
+      "slug": "product-management-essentials-23",
+      "title": "Product Management Essentials 23",
+      "category": "Product Management",
+      "level": "Beginner",
+      "duration_hours": 6,
+      "rating": 4.4,
+      "price": 59,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Product Management course for beginner learners. Build real skills in ~6 hours.",
+      "lessons": [
+        {
+          "id": "L023-1",
+          "title": "Lesson 1: Product Management Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L023-2",
+          "title": "Lesson 2: Product Management Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L023-3",
+          "title": "Lesson 3: Product Management Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Product Management concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Product Management concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Product Management concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Product Management concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Product Management concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "C024",
+      "slug": "practical-devops-project-24",
+      "title": "Practical DevOps Project 24",
+      "category": "DevOps",
+      "level": "Beginner",
+      "duration_hours": 6,
+      "rating": 4.1,
+      "price": 49,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on DevOps course for beginner learners. Build real skills in ~6 hours.",
+      "lessons": [
+        {
+          "id": "L024-1",
+          "title": "Lesson 1: DevOps Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L024-2",
+          "title": "Lesson 2: DevOps Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L024-3",
+          "title": "Lesson 3: DevOps Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "DevOps concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "DevOps concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "DevOps concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "DevOps concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "DevOps concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "C025",
+      "slug": "design-essentials-25",
+      "title": "Design Essentials 25",
+      "category": "Design",
+      "level": "Advanced",
+      "duration_hours": 6,
+      "rating": 4.4,
+      "price": 19,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Design course for advanced learners. Build real skills in ~6 hours.",
+      "lessons": [
+        {
+          "id": "L025-1",
+          "title": "Lesson 1: Design Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L025-2",
+          "title": "Lesson 2: Design Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L025-3",
+          "title": "Lesson 3: Design Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Design concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Design concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Design concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Design concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Design concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "C026",
+      "slug": "design-essentials-26",
+      "title": "Design Essentials 26",
+      "category": "Design",
+      "level": "Intermediate",
+      "duration_hours": 4,
+      "rating": 4.7,
+      "price": 0,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Design course for intermediate learners. Build real skills in ~4 hours.",
+      "lessons": [
+        {
+          "id": "L026-1",
+          "title": "Lesson 1: Design Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L026-2",
+          "title": "Lesson 2: Design Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L026-3",
+          "title": "Lesson 3: Design Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Design concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Design concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Design concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Design concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Design concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "C027",
+      "slug": "practical-cybersecurity-project-27",
+      "title": "Practical Cybersecurity Project 27",
+      "category": "Cybersecurity",
+      "level": "Advanced",
+      "duration_hours": 4,
+      "rating": 4.0,
+      "price": 19,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Cybersecurity course for advanced learners. Build real skills in ~4 hours.",
+      "lessons": [
+        {
+          "id": "L027-1",
+          "title": "Lesson 1: Cybersecurity Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L027-2",
+          "title": "Lesson 2: Cybersecurity Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L027-3",
+          "title": "Lesson 3: Cybersecurity Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cybersecurity concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "question": "Cybersecurity concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Cybersecurity concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Cybersecurity concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Cybersecurity concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "C028",
+      "slug": "data-science-essentials-28",
+      "title": "Data Science Essentials 28",
+      "category": "Data Science",
+      "level": "Intermediate",
+      "duration_hours": 2,
+      "rating": 3.6,
+      "price": 79,
+      "image": "assets/img/course-default.svg",
+      "description": "A concise, hands-on Data Science course for intermediate learners. Build real skills in ~2 hours.",
+      "lessons": [
+        {
+          "id": "L028-1",
+          "title": "Lesson 1: Data Science Topic",
+          "type": "text",
+          "content": "In this lesson, you will learn the key concepts with examples."
+        },
+        {
+          "id": "L028-2",
+          "title": "Lesson 2: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        },
+        {
+          "id": "L028-3",
+          "title": "Lesson 3: Data Science Topic",
+          "type": "video",
+          "content": "https://example.com/video.mp4"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Data Science concept Q1: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 3
+        },
+        {
+          "question": "Data Science concept Q2: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Data Science concept Q3: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "question": "Data Science concept Q4: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "question": "Data Science concept Q5: Which statement is correct?",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "answerIndex": 1
+        }
+      ]
+    }
+  ]
+}

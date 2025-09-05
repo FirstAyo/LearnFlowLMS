@@ -1,0 +1,1 @@
+$(async function(){ await OLP.loadData(); const data = OLP.data; if (!data) return; const wrap = $('#categoriesList'); data.categories.forEach(cat => { wrap.append(` <a class="card" href="category.html?name=${encodeURIComponent(cat)}"> <h3>${cat}</h3> <div class="meta">${data.courses.filter(c => c.category===cat).length} courses</div> </a> `); }); });

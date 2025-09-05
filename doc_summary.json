@@ -1,0 +1,11 @@
+{
+  "web_root": "/mnt/data/online-learning-system/online-learning-system",
+  "pages_count": 14,
+  "css_count": 1,
+  "js_count": 11,
+  "detected_dependencies": {
+    "jQuery": [
+      "https://code.jquery.com/jquery-3.7.1.min.js"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+  <!doctype html>
+  <html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OLP — Quiz</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body data-page="quiz">
+    <header class="header">
+      <div class="inner container">
+        <a class="brand" href="index.html">
+          <span class="logo"></span>
+          OLP
+        </a>
+        <nav class="nav">
+          <a href="categories.html">Categories</a>
+          <a href="search.html">Search</a>
+          <a href="about.html">About</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+          <a href="admin-login.html" class="btn">Admin</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙<span></span></button>
+      </div>
+    </header>
+
+
+<div class="container">
+  <h1>Quiz: <span id="quizCourse"></span></h1>
+  <form id="quizForm" class="grid cols-2" style="margin-top:1rem"></form>
+  <div style="margin-top:1rem"><button id="submitQuiz" class="btn primary">Submit</button></div>
+</div>
+
+
+    <footer class="footer">
+      <div class="inner container">
+        <div>© 2025 OLP — Minimal Online Learning Platform</div>
+        <div><span class="kicker">Status:</span> Static demo • JSON content • No backend</div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/pages/quiz.js"></script>
+  </body>
+  </html>
