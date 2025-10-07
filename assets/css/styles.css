@@ -389,3 +389,75 @@ label {
     border-right: 0;
   }
 }
+
+/* ===== Sticky header (desktop + mobile) ===== */
+.header {
+  position: sticky;
+  top: 0; /* for iOS safe areas you can use: top: env(safe-area-inset-top); */
+  z-index: 1000; /* keep above page content */
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+
+/* Make sure the mobile dropdown sits over content when open */
+@media (max-width: 900px) {
+  .header {
+    z-index: 1100;
+  }
+  #primaryNav {
+    z-index: 1200;
+  } /* your mobile panel */
+}
+
+/* Optional: subtle shadow when page is scrolled */
+body.scrolled .header {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  border-bottom-color: transparent;
+}
+
+/* Optional: anchor links don't hide under the sticky header */
+html {
+  scroll-padding-top: 72px;
+} /* adjust if your header is taller */
+
+/* ===== Course page: fix grid on small screens ===== */
+@media (max-width: 900px) {
+  /* Force the main grid to a single column (override inline style) */
+  .container > .grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.8rem !important;
+  }
+
+  /* Let the sidebar card stretch full width */
+  .container > .grid > aside .card {
+    width: 100%;
+  }
+}
+
+/* Tight phones */
+@media (max-width: 600px) {
+  /* Make action buttons wrap and fill width nicely */
+  .container > .grid > aside .card > div {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  #startCourse,
+  #takeQuiz {
+    flex: 1 1 180px; /* grow to half/full width as space allows */
+    text-align: center; /* center label on narrow widths */
+  }
+
+  /* Give the course image a bit more height on very small screens */
+  #courseImg {
+    height: 200px; /* adjust as you like */
+  }
+}
+
+/* Optional: if you want the sidebar to appear ABOVE the content on mobile,
+   uncomment the order change below. By default it stays beneath. */
+/*
+@media (max-width: 900px) {
+  .container > .grid > aside { order: -1; }
+}
+*/

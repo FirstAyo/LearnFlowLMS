@@ -147,3 +147,12 @@
     } catch (_) {}
   });
 })();
+
+// Adds/removes a class so the header gets a shadow after you scroll a bit
+(function () {
+  function onScroll() {
+    document.body.classList.toggle("scrolled", window.scrollY > 2);
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+})();
