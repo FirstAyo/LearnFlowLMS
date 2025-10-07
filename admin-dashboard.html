@@ -1,13 +1,16 @@
-  <!doctype html>
-  <html lang="en" data-theme="light">
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Admin Dashboard — OLP</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body data-page="admin-dashboard">
     <header class="header">
@@ -16,7 +19,20 @@
           <span class="logo"></span>
           OLP
         </a>
-        <nav class="nav">
+
+        <!-- hambuger menu for mobile -->
+        <button
+          id="menuToggle"
+          class="menu-toggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="primaryNav"
+        >
+          menu
+          <!-- <span></span><span></span><span></span> -->
+        </button>
+
+        <nav id="primaryNav" class="nav" aria-label="Primary">
           <a href="categories.html">Categories</a>
           <a href="search.html">Search</a>
           <a href="about.html">About</a>
@@ -24,47 +40,71 @@
           <a href="contact.html">Contact</a>
           <a href="admin-login.html" class="btn">Admin</a>
         </nav>
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙<span></span></button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          🌙<span></span>
+        </button>
       </div>
     </header>
 
-
-<div class="container">
-  <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem">
-    <h1>Admin Dashboard</h1>
-    <div style="display:flex;gap:.5rem">
-      <button id="downloadJson" class="btn">Download JSON</button>
-      <button id="logout" class="btn">Logout</button>
+    <div class="container">
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 1rem;
+        "
+      >
+        <h1>Admin Dashboard</h1>
+        <div style="display: flex; gap: 0.5rem">
+          <button id="downloadJson" class="btn">Download JSON</button>
+          <button id="logout" class="btn">Logout</button>
+        </div>
+      </div>
+      <div id="msg" style="margin-bottom: 0.7rem"></div>
+      <div class="card">
+        <div class="kicker">Upload</div>
+        <p>
+          Upload a <code>courses.json</code> to preview/edit. Your changes stay
+          in the browser until you download the file.
+        </p>
+        <input id="fileInput" type="file" accept="application/json" />
+      </div>
+      <div id="stats" style="margin: 0.8rem 0"></div>
+      <div class="card">
+        <div class="kicker">Courses (first 100)</div>
+        <div style="overflow: auto">
+          <table class="table" id="coursesTable">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Level</th>
+                <th>Duration</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <div class="kicker">JSON Editor</div>
+        <textarea id="jsonArea" rows="16" spellcheck="false"></textarea>
+        <div style="margin-top: 0.6rem">
+          <button id="applyJson" class="btn">Apply JSON</button>
+        </div>
+      </div>
     </div>
-  </div>
-  <div id="msg" style="margin-bottom:.7rem"></div>
-  <div class="card">
-    <div class="kicker">Upload</div>
-    <p>Upload a <code>courses.json</code> to preview/edit. Your changes stay in the browser until you download the file.</p>
-    <input id="fileInput" type="file" accept="application/json">
-  </div>
-  <div id="stats" style="margin:.8rem 0"></div>
-  <div class="card">
-    <div class="kicker">Courses (first 100)</div>
-    <div style="overflow:auto">
-      <table class="table" id="coursesTable">
-        <thead><tr><th>ID</th><th>Title</th><th>Category</th><th>Level</th><th>Duration</th><th>Price</th></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </div>
-  <div class="card">
-    <div class="kicker">JSON Editor</div>
-    <textarea id="jsonArea" rows="16" spellcheck="false"></textarea>
-    <div style="margin-top:.6rem"><button id="applyJson" class="btn">Apply JSON</button></div>
-  </div>
-</div>
-
 
     <footer class="footer">
       <div class="inner container">
         <div>© 2025 OLP — Minimal Online Learning Platform</div>
-        <div><span class="kicker">Status:</span> Static demo • JSON content • No backend</div>
+        <div>
+          <span class="kicker">Status:</span> Static demo • JSON content • No
+          backend
+        </div>
       </div>
     </footer>
 
@@ -72,4 +112,4 @@
     <script src="assets/js/app.js"></script>
     <script src="assets/js/pages/admin-dashboard.js"></script>
   </body>
-  </html>
+</html>

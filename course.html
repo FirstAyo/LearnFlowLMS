@@ -1,13 +1,16 @@
-  <!doctype html>
-  <html lang="en" data-theme="light">
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>OLP — Course</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body data-page="course">
     <header class="header">
@@ -16,7 +19,18 @@
           <span class="logo"></span>
           OLP
         </a>
-        <nav class="nav">
+        <!-- hambuger menu for mobile -->
+        <button
+          id="menuToggle"
+          class="menu-toggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="primaryNav"
+        >
+          menu
+          <!-- <span></span><span></span><span></span> -->
+        </button>
+        <nav id="primaryNav" class="nav" aria-label="Primary">
           <a href="categories.html">Categories</a>
           <a href="search.html">Search</a>
           <a href="about.html">About</a>
@@ -24,43 +38,57 @@
           <a href="contact.html">Contact</a>
           <a href="admin-login.html" class="btn">Admin</a>
         </nav>
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙<span></span></button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          🌙<span></span>
+        </button>
       </div>
     </header>
 
+    <div class="container">
+      <div class="grid" style="grid-template-columns: 1fr 320px; gap: 1rem">
+        <div>
+          <h1 id="courseTitle">Course</h1>
+          <div id="courseMeta" class="meta"></div>
+          <p id="courseDesc"></p>
 
-<div class="container">
-  <div class="grid" style="grid-template-columns: 1fr 320px; gap: 1rem;">
-    <div>
-      <h1 id="courseTitle">Course</h1>
-      <div id="courseMeta" class="meta"></div>
-      <p id="courseDesc"></p>
-
-      <h3>Lessons</h3>
-      <ol id="courseLessons"></ol>
-    </div>
-    <aside>
-      <div class="card">
-        <img id="courseImg" src="assets/img/course-default.svg" alt="" style="width:100%;height:180px;object-fit:cover;border-radius:.6rem;border:1px solid var(--border)">
-        <div style="display:flex;gap:.5rem;margin-top:0.8rem">
-          <a id="startCourse" class="btn primary" href="#">Start</a>
-          <a id="takeQuiz" class="btn" href="#">Take Quiz</a>
+          <h3>Lessons</h3>
+          <ol id="courseLessons"></ol>
         </div>
+        <aside>
+          <div class="card">
+            <img
+              id="courseImg"
+              src="assets/img/course-default.svg"
+              alt=""
+              style="
+                width: 100%;
+                height: 180px;
+                object-fit: cover;
+                border-radius: 0.6rem;
+                border: 1px solid var(--border);
+              "
+            />
+            <div style="display: flex; gap: 0.5rem; margin-top: 0.8rem">
+              <a id="startCourse" class="btn primary" href="#">Start</a>
+              <a id="takeQuiz" class="btn" href="#">Take Quiz</a>
+            </div>
+          </div>
+        </aside>
       </div>
-    </aside>
-  </div>
-</div>
-
+    </div>
 
     <footer class="footer">
       <div class="inner container">
         <div>© 2025 OLP — Minimal Online Learning Platform</div>
-        <div><span class="kicker">Status:</span> Static demo • JSON content • No backend</div>
+        <div>
+          <span class="kicker">Status:</span> Static demo • JSON content • No
+          backend
+        </div>
       </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/pages/course.js"></script>
   </body>
-  </html>
+</html>
